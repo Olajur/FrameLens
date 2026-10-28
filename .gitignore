@@ -1,0 +1,9 @@
+build/
+out/
+.vs/
+*.user
+
+# Written by tools\build-windows.bat on every build
+build.log
+build-status.txt
+build-vcvars.log
