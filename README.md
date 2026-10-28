@@ -2,7 +2,16 @@
 
 A free, lightweight FPS and hardware monitor for Windows 10/11 — NVIDIA, AMD and Intel — with no RTSS, Afterburner or HWiNFO required, and no code injected into games.
 
-**Status: early development (milestone M2 — monitoring core).** The engine and a console host exist; the overlay and the Windows 11-style UI come next. See:
+| | |
+|---|---|
+| ![Overlay panel in the top-left corner: FPS, frame time, AVG / MAX / MIN, 1% and 0.1% lows, GPU, CPU per core, RAM](docs/screenshots/panel.webp) | ![Overlay as a bar along the top of the screen, SteamOS style](docs/screenshots/bar-top.webp) |
+| Overlay panel with per-core CPU load and clock | Bar along the top of the screen (SteamOS style) |
+| ![Overlay without a background over the game](docs/screenshots/no-background.webp) | ![Customize overlay window and the FrameLens window over the game, with the high-contrast overlay](docs/screenshots/customize.webp) |
+| Without a background | Customize overlay, high-contrast values and own colours |
+
+**Download:** the installer is on the [Releases](https://github.com/Olajur/FrameLens/releases) page.
+
+**Status: early development.** The monitoring engine, the overlay, the app windows and the installer work; see:
 
 - [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — feasibility research, technical limits, stack and module design
 - [`docs/ROADMAP.md`](docs/ROADMAP.md) — milestones and exit criteria
